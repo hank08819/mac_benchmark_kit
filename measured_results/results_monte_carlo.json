@@ -1,0 +1,28 @@
+{
+  "benchmark": "monte_carlo",
+  "timestamp_utc": "2026-06-14T04:31:02.867299+00:00",
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "arm",
+  "python_version": "3.12.7",
+  "python_results": {
+    "n_paths": 1000000,
+    "black_scholes_analytical": 10.45058357,
+    "pure_python_measured_n": 100000,
+    "pure_python_ns_at_measured_n": 29131125,
+    "pure_python_extrapolated_1M_ns": 291311250,
+    "pure_python_price_at_measured_n": 10.50677983,
+    "numpy_best_1M_ns": 16633375,
+    "numpy_price": 10.43415769,
+    "numpy_vs_bs_abs_error": 0.016426
+  },
+  "mojo_results": {
+    "n_paths": 1000000,
+    "mojo_serial_one_option_ns": 54793000,
+    "mojo_serial_one_option_price": 10.434420437378916,
+    "mojo_parallel_16_options_total_ns": 189692000,
+    "mojo_parallel_per_option_ns": 11855750,
+    "mojo_parallel_first_price": 24.390592759157286,
+    "mojo_parallel_atm_price": 10.429564290155449
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "benchmark": "dot_product",
+  "timestamp_utc": "2026-06-14T04:31:01.904368+00:00",
+  "platform": "macOS-15.4.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "arm",
+  "python_version": "3.12.7",
+  "python_results": {
+    "n_elements": 10000000,
+    "pure_python_measured_n": 1000000,
+    "pure_python_best_ns_at_measured_n": 22872291,
+    "pure_python_extrapolated_10M_ns": 228722910,
+    "pure_python_result_at_measured_n": 250037.42682200007,
+    "numpy_dot_best_ns": 2822167,
+    "numpy_dot_result": 2498856.5772558255
+  },
+  "mojo_results": {
+    "n_elements": 10000000,
+    "hardware_simd_width": 2,
+    "mojo_scalar_best_ns": 11604000,
+    "mojo_scalar_result": 2499491.013627705,
+    "mojo_simd_best_ns": 3734000,
+    "mojo_simd_result": 2499491.01362783
+  }
+}
