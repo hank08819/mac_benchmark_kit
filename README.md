@@ -16,7 +16,7 @@
 This repository is the code companion to:
 
 **Henry Han.** *"Mojo: A Promising Tool for Scalable Financial AI
-Efficiency."* Communications of the ACM, Practice Section, 2026.
+Efficiency."*, 2026.
 
 The paper's primary code contribution, a small open-source library of
 bit-reproducible reduction kernels, lives in its own repository:
