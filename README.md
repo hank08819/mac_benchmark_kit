@@ -1,6 +1,6 @@
 # mac_benchmark_kit
 
-**Code companion to the CACM Practice paper *"Mojo: A Promising Tool for Scalable Financial AI Efficiency"*.**
+**Code companion to the CACM Practice paper *"Mojo: A Deterministic, Scalable Kernel Layer for Financial AI"*.**
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Mojo](https://img.shields.io/badge/Mojo-1.0.0%20beta1-orange)
@@ -15,8 +15,11 @@
 
 This repository is the code companion to:
 
-**Henry Han.** *"Mojo: A Promising Tool for Scalable Financial AI
-Efficiency."*, 2026.
+**Henry Han.** *"Mojo: A Deterministic, Scalable Kernel Layer for
+Financial AI."*, 2026.
+
+An earlier version is on arXiv under the title *"Mojo: A Promising Tool
+for Scalable Financial AI Efficiency"*.
 
 The paper's primary code contribution, a small open-source library of
 bit-reproducible reduction kernels, lives in its own repository:
@@ -201,7 +204,7 @@ If you use this code, please cite the paper:
 ```bibtex
 @article{han2026mojo,
   author  = {Han, Henry},
-  title   = {Mojo: A Promising Tool for Scalable Financial AI Efficiency},
+  title   = {Mojo: A Deterministic, Scalable Kernel Layer for Financial AI},
   year    = {2026}
 }
 ```
