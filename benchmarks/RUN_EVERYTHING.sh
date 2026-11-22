@@ -279,19 +279,11 @@ zip -q "$RESULTS_ZIP" \
 ok "Bundled into: ${BOLD}$RESULTS_ZIP${RESET}"
 echo
 echo "${BOLD}====================================================================${RESET}"
-echo "${BOLD} HOW TO SEND THE RESULTS BACK${RESET}"
+echo "${BOLD} RESULTS${RESET}"
 echo "${BOLD}====================================================================${RESET}"
 echo
-echo "  Send this one file:"
+echo "  All logs are bundled in this one file:"
 echo
 echo "    ${GREEN}$SCRIPT_DIR/$RESULTS_ZIP${RESET}"
-echo
-echo "  Drag and drop it into the Claude chat, or upload as an attachment."
-echo
-echo "  After receiving it, I will:"
-echo "    - Update Figure 1 and Figure 3 with your measured Mojo speedups"
-echo "    - Update Figure 2 with your measured MPS GPU non-determinism"
-echo "    - Update §3.2 and §8 prose to reflect 'measured on Apple Silicon'"
-echo "    - Add a new paragraph in §4 about MPS GPU specifically"
 echo
 echo "${BOLD}====================================================================${RESET}"
