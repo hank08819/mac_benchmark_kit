@@ -7,7 +7,7 @@ GPU (Metal Performance Shaders) and CPU, via mps_determinism_test_v2.py.
 Source: mps_determinism_results_v2.json
 
 Companion to:
-  "Mojo: A Promising Tool for Scalable Financial AI Efficiency"
+  "Mojo: A Deterministic, Scalable Kernel Layer for Financial AI"
   Henry Han, Baylor University (CACM Practice submission, 2026)
 
 Every number here is a real IEEE-754 float32 computation on Apple

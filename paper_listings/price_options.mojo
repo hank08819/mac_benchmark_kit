@@ -2,7 +2,7 @@
 # price_options.mojo
 #
 # Listing from Section 5.2 of:
-#   "Mojo: A Promising Tool for Scalable Financial AI Efficiency"
+#   "Mojo: A Deterministic, Scalable Kernel Layer for Financial AI"
 #   Henry Han, Baylor University (CACM Practice submission, 2026)
 #
 # Monte Carlo European call option pricing, parallelized across

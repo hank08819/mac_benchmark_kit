@@ -2,7 +2,7 @@
 # deterministic_reduction.mojo
 #
 # Companion to Section 4 of:
-#   "Mojo: A Promising Tool for Scalable Financial AI Efficiency"
+#   "Mojo: A Deterministic, Scalable Kernel Layer for Financial AI"
 #   Henry Han, Baylor University (CACM Practice submission, 2026)
 #
 # The load-bearing claim of Section 4 is that Mojo gives the

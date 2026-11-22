@@ -2,7 +2,7 @@
 # python_interop.mojo
 #
 # Listing from Section 6.1 of:
-#   "Mojo: A Promising Tool for Scalable Financial AI Efficiency"
+#   "Mojo: A Deterministic, Scalable Kernel Layer for Financial AI"
 #   Henry Han, Baylor University (CACM Practice submission, 2026)
 #
 # Demonstrates Mojo's native Python interop. A quant researcher can

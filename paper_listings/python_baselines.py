@@ -9,7 +9,7 @@ Usage:
     python python_baselines.py
 
 Companion to:
-  "Mojo: A Promising Tool for Scalable Financial AI Efficiency"
+  "Mojo: A Deterministic, Scalable Kernel Layer for Financial AI"
   Henry Han, Baylor University (CACM Practice submission, 2026)
 
 Author: Henry Han, Baylor University

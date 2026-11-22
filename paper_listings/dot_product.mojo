@@ -2,7 +2,7 @@
 # dot_product.mojo
 #
 # Listing from Section 3.1 of:
-#   "Mojo: A Promising Tool for Scalable Financial AI Efficiency"
+#   "Mojo: A Deterministic, Scalable Kernel Layer for Financial AI"
 #   Henry Han, Baylor University (CACM Practice submission, 2026)
 #
 # A minimal dot product. Pythonic syntax, native compiled performance.
